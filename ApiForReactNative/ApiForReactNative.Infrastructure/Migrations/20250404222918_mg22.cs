@@ -2,21 +2,20 @@
 
 #nullable disable
 
-namespace ApiForReactNative.Infrastructure.Migrations
+namespace ApiForReactNative.Infrastructure.Migrations;
+
+/// <inheritdoc />
+public partial class mg22 : Migration
 {
     /// <inheritdoc />
-    public partial class mg22 : Migration
+    protected override void Up(MigrationBuilder migrationBuilder)
     {
-        /// <inheritdoc />
-        protected override void Up(MigrationBuilder migrationBuilder)
-        {
 
-        }
+    }
 
-        /// <inheritdoc />
-        protected override void Down(MigrationBuilder migrationBuilder)
-        {
+    /// <inheritdoc />
+    protected override void Down(MigrationBuilder migrationBuilder)
+    {
 
-        }
     }
 }

@@ -3,12 +3,11 @@ using ApiForReactNative.Domain.Repositories;
 using ApiForReactNative.Infrastructure.Context;
 using GenericRepository;
 
-namespace ApiForReactNative.Infrastructure.Repositories
+namespace ApiForReactNative.Infrastructure.Repositories;
+
+internal sealed class TableTwoRepository : Repository<TableTwo, ApplicationDbContext>, ITableTwoRepository
 {
-    internal sealed class TableTwoRepository : Repository<TableTwo, ApplicationDbContext>, ITableTwoRepository
+    public TableTwoRepository(ApplicationDbContext context) : base(context)
     {
-        public TableTwoRepository(ApplicationDbContext context) : base(context)
-        {
-        }
     }
 }
