@@ -19,13 +19,4 @@
     <ProjectReference Include="..\ApiForReactNative.Domain\ApiForReactNative.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\TableOne\CreateTableOne\" />
-    <Folder Include="Features\TableOne\GetAllTableOne\" />
-    <Folder Include="Features\TableTwo\CreateTabloTwo\" />
-    <Folder Include="Features\TableTwo\GetAllTableTwo\" />
-    <Folder Include="Features\TabloThree\GetAllTableThree\" />
-    <Folder Include="Features\TabloThree\CreateTableThree\" />
-  </ItemGroup>
-
 </Project>
