@@ -3,7 +3,7 @@ using GenericRepository;
 
 namespace ApiForReactNative.Domain.Repositories;
 
-public interface ITableTwoRepository : IRepository<TableTwo>
+public interface ITableTwoRepository : IRepository<TableIki>
 {
 
 }

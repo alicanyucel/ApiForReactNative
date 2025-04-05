@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ApiForReactNative.Domain.Entities;
 
-public class TableThree:Entity // GUİD ID
+public class TableUc:Entity // GUİD ID
 {
     public string UygunsuzlukTespitListesi {  get; set; }
     public string TeknisyenAd {  get; set; }

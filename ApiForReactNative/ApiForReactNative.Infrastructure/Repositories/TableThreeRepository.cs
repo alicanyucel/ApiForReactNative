@@ -6,7 +6,7 @@ using GenericRepository;
 
 namespace ApiForReactNative.Infrastructure.Repositories;
 
-internal sealed class TableThreeRepository : Repository<TableThree, ApplicationDbContext>, ITableThreeRepository
+internal sealed class TableThreeRepository : Repository<TableUc, ApplicationDbContext>, ITableThreeRepository
 {
     public TableThreeRepository(ApplicationDbContext context) : base(context)
     {

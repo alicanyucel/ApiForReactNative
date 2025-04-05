@@ -2,7 +2,7 @@
 
 namespace ApiForReactNative.Domain.Entities;
 
-public class TableOne:Entity // GUID ID GELECEK
+public class TableBir:Entity // GUID ID GELECEK
 {
     public string ProjeSorumlusu {  get; set; }
     public string ProjeAdi { get; set; }

@@ -3,7 +3,7 @@ using GenericRepository;
 
 namespace ApiForReactNative.Domain.Repositories;
 
-public interface ITableThreeRepository : IRepository<TableThree>
+public interface ITableThreeRepository : IRepository<TableUc>
 {
 
 }

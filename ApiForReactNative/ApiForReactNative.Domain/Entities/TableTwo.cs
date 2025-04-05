@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ApiForReactNative.Domain.Entities;
 
-public sealed class TableTwo:Entity
+public sealed class TableIki:Entity
 {
     // İD DEĞERİ ENTİTY DEN  GUİD Gelecek
 
