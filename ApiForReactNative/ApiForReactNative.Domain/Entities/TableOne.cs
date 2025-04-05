@@ -12,7 +12,7 @@ public class TableOne:Entity // GUID ID GELECEK
     public int UrerimAdeti {  get; set; }
     public int Gun {  get; set; }
     public DateTime Tarih {  get; set; }
-    public byte[] FileData { get; set; } // dosyalar yükleencek
+    public byte[] DosyaYukle { get; set; } // dosyalar yükleencek
     public string Aciklama {  get; set; }
     public bool Kaydet {  get; set; }= false; // default false
     public DateTime TeknisyebDosyaAcilmaZamani { get; set; }
