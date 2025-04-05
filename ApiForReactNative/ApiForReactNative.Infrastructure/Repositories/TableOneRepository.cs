@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ApiForReactNative.Domain.Entities;
+using ApiForReactNative.Domain.Repositories;
+using ApiForReactNative.Infrastructure.Context;
+using GenericRepository;
 
-namespace ApiForReactNative.Infrastructure.Repositories
+
+namespace ApiForReactNative.Infrastructure.Repositories;
+
+internal sealed class TableOneRepository : Repository<TableOne, ApplicationDbContext>, ITableOneRepository
 {
-    internal class TableOneRepository
+    public TableOneRepository(ApplicationDbContext context) : base(context)
     {
+
     }
+
 }

@@ -1,5 +1,5 @@
 ﻿namespace ApiForReactNative.Domain.Entities;
 
-public class TabloThree
+public class TableThree
 {
 }

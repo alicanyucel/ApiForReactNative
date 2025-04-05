@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using GenericRepository;
+using ApiForReactNative.Domain.Entities;
 
-namespace ApiForReactNative.Domain.Repositories
+namespace ApiForReactNative.Domain.Repositories;
+
+public interface ITableOneRepository : IRepository<TableOne>
 {
-    internal interface ITableOneRepository
-    {
-    }
+
 }

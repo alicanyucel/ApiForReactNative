@@ -11,7 +11,7 @@ public sealed class MappingProfile : Profile
     public MappingProfile()
     {
         CreateMap<CreateTableThreeCommand, TabloThree>().ReverseMap();
-        CreateMap<CreateTableOneCommand, TableOne>().ReverseMap();
+        CreateMap<CreateTableOneCommand, TableThree>().ReverseMap();
         CreateMap<CreateTableTwoCommand, TableTwo>().ReverseMap();
 
     }
