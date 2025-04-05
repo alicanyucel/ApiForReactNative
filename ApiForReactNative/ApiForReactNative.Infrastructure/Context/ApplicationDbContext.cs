@@ -11,7 +11,9 @@ internal sealed class ApplicationDbContext : IdentityDbContext<AppUser, Identity
     public ApplicationDbContext(DbContextOptions options) : base(options)
     {
     }
-
+    public DbSet<TableOne> TableOnes {  get; set; }
+    public DbSet<TableTwo> TableTwos { get; set; }
+    public DbSet<TableThree> TableThrees { get; set; }
     protected override void OnModelCreating(ModelBuilder builder)
     {
         builder.ApplyConfigurationsFromAssembly(typeof(DependencyInjection).Assembly);
